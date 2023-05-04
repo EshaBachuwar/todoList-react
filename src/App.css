@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color: rgb(51, 50, 50);
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+  /* align-items: center; */
+  width: 100vw;
+  height: 100vh;
+}
+.main{
+  background-color: rgb(97, 96, 96);
+  border: 2px solid black;
+  margin-top: 30px;
+  height: 90%;
+  width: 650px;
+}
+
+input{
+  width:70%;
+  background-color: black;
+  color: white;
+  height: 30px;
+  border-radius: 15px;
+}
+.addTask button{
+  background-color: rgb(61, 60, 60);
+  color: white;
+  height: 30px;
+  margin-left: 3px;
+}
+input:focus { 
+  outline: none !important;
+}
+.addTask{
+  margin-bottom: 20px;
+}
+.list{
+  background-color: rgb(173, 169, 169);
+  width: 80%;
+  margin: auto;
+  border-radius: 3px;
+}
+.listItems {
+  display:flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;  
+}
+.buttons{
+  align-self: center;
+}
+.edit{
+  height: 30px;
+  align-self: center;
+  background-color: grey;
+  width: 54px;
+}
+.delete{
+  height: 30px;
+  align-self: center;
+  background-color: grey;
+  margin: 5px;
+}
+.check{
+  height: 30px;
+  align-self: center;
+  background-color: grey;
+  width: 60px;
+}
+.left{
+  display: flex;
+  width: 60%;
+}
+#checkBox{
+  width: 10%;
+  height: 15px;
+}
+
+.left input{
+  align-self: center;
+}
